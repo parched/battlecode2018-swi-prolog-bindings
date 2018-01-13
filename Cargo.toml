@@ -1,0 +1,11 @@
+[package]
+name = "battlecode2018_swi_prolog_bindings"
+version = "0.1.0"
+authors = ["James Duley <jagduley@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+swipl-sys = { git = "https://github.com/parched/swipl-sys.rs.git"}
+c_str_macro = "1.0.2"
