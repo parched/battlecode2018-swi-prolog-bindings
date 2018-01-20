@@ -7,5 +7,7 @@ authors = ["James Duley <jagduley@gmail.com>"]
 crate-type = ["cdylib"]
 
 [dependencies]
+battlecode-engine = { path = "../battlecode-2018/battlecode-engine"}
 swipl-sys = { git = "https://github.com/parched/swipl-sys.rs.git"}
 c_str_macro = "1.0.2"
+lazy_static = "1.0.0"
